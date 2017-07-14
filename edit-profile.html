@@ -34,37 +34,45 @@
       </header>
       <form class="form">
         <div class="form__row">
-          <label for="name" class="form__name">Name</label>
+          <label for="name" class="form_label">Name</label>
           <input id="name" type="text">
         </div>
         <div class="form__row">
-          <label for="username" class="form__name">Username</label>
+          <label for="username" class="form_label">Username</label>
           <input id="username" type="text">
         </div>
         <div class="form__row">
-          <label for="website" class="form__name">Website</label>
+          <label for="website" class="form_label">Website</label>
           <input id="website" type="text">
         </div>
         <div class="form__row">
-          <label for="bio" class="form__name">Bio</label>
+          <label for="bio" class="form_label">Bio</label>
           <textarea id="bio"></textarea>
         </div>
         <span class="form_text">private information</span>
         <div class="form__row">
-          <label for="email" class="form__name">Email</label>
+          <label for="email" class="form_label">Email</label>
           <input id="email" type="email">
         </div>
         <div class="form__row">
-          <label for="tel" class="form__name">Phone Number</label>
-          <input id="tel" type="tel">
+          <label for="phone-number" class="form_label">Phone Number</label>
+          <input id="phone-number" type="text">
         </div>
         <div class="form__row">
-          <label for="gender" class="form__name">Gender</label>
-          <select id="gender" class="" name="">
+          <label for="gender" class="form_label">Gender</label>
+          <select id="gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="None" selected>None specified</option>
           </select>
+        </div>
+        <div class="form__row">
+          <span class="form_label">Similar Account Suggestions</span>
+          <input id="similar" type="checkbox">
+          <label for="similar" class="form__outside-label">Include your account when</label>
+        </div>
+        <div class="form__row">
+          <input type="submit"/>
         </div>
       </form>
     </main>
