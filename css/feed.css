@@ -1,3 +1,7 @@
+main {
+  max-width: none;
+}
+
 .feed {
   display: flex;
   flex-direction: column;
