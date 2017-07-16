@@ -26,13 +26,50 @@
   .photo__add-comment {
     display: none;
   }
-  .explore {
+  .explore, .edit-profile {
     margin-top: 0;
     border: 0;
     width: 100%;
     background-color: transparent;
   }
   .explore__user {
+    border-bottom: 0;
+  }
+  #login .login__column:first-child {
+    display: none;
+  }
+  #login .login__column:last-child {
+    width: 100%;
+  }
+  #login .login__box:first-child {
+    padding: 0;
+  }
+  #login .login__box {
+    background-color: transparent;
     border: 0;
+  }
+  .login__form input[type="text"], .login__form input[type="password"] {
+    background-color: transparent;
+  }
+  .profile__header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile__user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__name {
+    order: 1;
+    margin-top: 30px;
+  }
+  .profile__bio {
+    order: 2;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .profile__counts {
+    order: 3;
+    margin: 0;
   }
 }

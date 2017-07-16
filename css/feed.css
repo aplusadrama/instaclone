@@ -55,6 +55,40 @@ main {
   display: block;
 }
 
+.heart-click {
+  color: #f71063;
+  animation: 0.75s bump infinite linear;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+
+.comment-click {
+  color: #343434;
+  animation: 0.75s bump infinite linear;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+
 .photo__comments {
   margin-bottom: 10px;
 }
